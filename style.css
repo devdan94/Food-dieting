@@ -1,0 +1,218 @@
+/* importing fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* all elements */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all ease-in-out 0.6s;
+    font-family: 'Raleway';
+}
+
+
+/* Navigation and Header */
+
+nav {
+    background: coral;
+    display: flex;
+    justify-content: center;
+    padding: .5em 0 .5em 0;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+nav h2 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: -.15rem;
+    word-spacing: .2em;
+    padding: 0 0 0 .5em;
+}
+
+
+/* Food Items */
+
+.container {
+    height: 70em;
+    widows: 100%;
+    background: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+}
+
+
+/* First Section [thus, left section]  */
+
+.section-one {
+    padding: 4em;
+}
+
+.section-two {
+    padding: 4em;
+}
+
+.card {
+    width: 30em;
+    height: 10.5em;
+    border-radius: .5em;
+    background: white;
+    margin: 0 0 2em;
+}
+
+.title-one {
+    display: flex;
+    align-items: center;
+    margin: 0 0 1.5em;
+    padding: .7em 0 0 2em;
+}
+
+.title-one img {
+    width: 3.5rem;
+}
+
+.title-one p {
+    color: rgb(46, 43, 43);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -.07em;
+    font-size: 1.3rem;
+    padding: 0 0 0 2em;
+}
+
+.title-two {
+    text-align: center;
+    padding: 0 0 0 2em;
+}
+
+.img-container {
+    width: 5em;
+    height: 5em;
+    background: rgb(255, 246, 227);
+    border-radius: 5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar-container {
+    height: .3rem;
+    width: 25rem;
+    border-radius: 3em;
+    background: rgb(255, 240, 223);
+    margin: 0 0 .7em;
+}
+
+
+/* fish */
+
+.progress-bar-fish {
+    height: .3rem;
+    width: 17rem;
+    border-radius: 3em;
+    background: rgb(255, 189, 113);
+}
+
+
+/* fruits */
+
+.progress-bar-fruits {
+    height: .3rem;
+    width: 13.5rem;
+    border-radius: 3em;
+    background: rgb(255, 189, 113);
+}
+
+
+/* meat */
+
+.progress-bar-meat {
+    height: .3rem;
+    width: 18.5rem;
+    border-radius: 3em;
+    background: rgb(255, 189, 113);
+}
+
+
+/* milk */
+
+.progress-bar-milk {
+    height: .3rem;
+    width: 10rem;
+    border-radius: 3em;
+    background: rgb(255, 189, 113);
+}
+
+
+/* oat meal */
+
+.progress-bar-oatmeal {
+    height: .3rem;
+    width: 7rem;
+    border-radius: 3em;
+    background: rgb(255, 189, 113);
+}
+
+
+/* peas */
+
+.progress-bar-peas {
+    height: .3rem;
+    width: 10rem;
+    border-radius: 3em;
+    background: rgb(255, 189, 113);
+}
+
+
+/* vegetables */
+
+.progress-bar-vegetables {
+    height: .3rem;
+    width: 17rem;
+    border-radius: 3em;
+    background: rgb(255, 189, 113);
+}
+
+
+/* water */
+
+.progress-bar-water {
+    height: .3rem;
+    width: 21.5rem;
+    border-radius: 3em;
+    background: rgb(255, 189, 113);
+}
+
+
+/* wheat */
+
+.progress-bar-wheat {
+    height: .3rem;
+    width: 18.5rem;
+    border-radius: 3em;
+    background: rgb(255, 189, 113);
+}
+
+
+/* eggs */
+
+.progress-bar-eggs {
+    height: .3rem;
+    width: 17rem;
+    border-radius: 3em;
+    background: rgb(255, 189, 113);
+}
+
+.percentage {
+    color: rgb(255, 100, 73);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
