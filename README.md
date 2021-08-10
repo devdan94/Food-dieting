@@ -1,3 +1,3 @@
 # Food-dieting
 
-Web-Elements: cards anf Progress bars
+Web-Elements: cards and Progress bars
